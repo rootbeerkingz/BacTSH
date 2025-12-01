@@ -27,6 +27,9 @@
 //gpu_set_tex_mip_filter(tf_anisotropic);
 display_reset(2, true);
 
+show_debug_message(GetSystemMemory() / (1024 * 1024));
+show_debug_message(GetAvailableMemory() / (1024 * 1024));
+
 #region Filesystem
 
 // Create Cache Folder

@@ -18,6 +18,7 @@
     {"$GMFolder":"","%Name":"IconFrames","folderPath":"folders/IconFrames.yy","name":"IconFrames","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"TexturePage","folderPath":"folders/TexturePage.yy","name":"TexturePage","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Utils","folderPath":"folders/Utils.yy","name":"Utils","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Vendors","folderPath":"folders/Vendors.yy","name":"Vendors","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"ImGui_GM","folderPath":"folders/Vendors/ImGui_GM.yy","name":"ImGui_GM","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"SNAP","folderPath":"folders/Vendors/SNAP.yy","name":"SNAP","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -50,6 +51,7 @@
   },
   "name":"BacTSH",
   "resources":[
+    {"id":{"name":"BacTSHUtils","path":"extensions/BacTSHUtils/BacTSHUtils.yy",},},
     {"id":{"name":"DDSTools","path":"extensions/DDSTools/DDSTools.yy",},},
     {"id":{"name":"ext_window_state","path":"extensions/ext_window_state/ext_window_state.yy",},},
     {"id":{"name":"ImGui_GM","path":"extensions/ImGui_GM/ImGui_GM.yy",},},
@@ -65,6 +67,7 @@
     {"id":{"name":"ConfirmModal","path":"scripts/ConfirmModal/ConfirmModal.yy",},},
     {"id":{"name":"Environment","path":"scripts/Environment/Environment.yy",},},
     {"id":{"name":"fnv","path":"scripts/fnv/fnv.yy",},},
+    {"id":{"name":"FooterPanel","path":"scripts/FooterPanel/FooterPanel.yy",},},
     {"id":{"name":"helper","path":"scripts/helper/helper.yy",},},
     {"id":{"name":"IconPanel","path":"scripts/IconPanel/IconPanel.yy",},},
     {"id":{"name":"ImGui_Misc","path":"scripts/ImGui_Misc/ImGui_Misc.yy",},},

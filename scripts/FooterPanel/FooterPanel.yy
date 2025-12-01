@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"FooterPanel",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"FooterPanel",
+  "parent":{
+    "name":"Environment",
+    "path":"folders/Environment.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

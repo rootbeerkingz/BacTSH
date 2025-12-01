@@ -557,11 +557,35 @@ function ImGui() constructor {
 	/// @function DragInt2Custom()
 	/// @context ImGui
 	/// @return {Undefined}
-	static DragInt2Custom = function(val, vspd = 1, vmin = 0, vmax = 100, label = "##hidden", space = 100, def = NULL, flags = ImGuiInputTextFlags.None)
+	static DragInt2Custom = function(title, val, v_spd = 1, v_min = 0, v_max = 1, label = "##hidden", space = 100, def = NULL, flags = ImGuiSliderFlags.None)
 	{
+		// Get Cursor Y
+		var ypos = ImGui.GetCursorPosY();
+		
+		// Draw First Text
+		ImGui.Text("");
+		
+		// Same Line
+		ImGui.SameLine(space);
+		
+		// Push Item Width
+		ImGui.PushItemWidth(-2);
+		
 		// Input Text
-		var ret = ImGui.DragInt2(label, val, vspd, vmin, vmax, "%d", flags);
+		var ret = ImGui.DragInt2(label, val, v_spd, v_min, v_max,, flags);
 		//if (ret == "") ret = NULL;
+		
+		// Set Cursor Y
+		ImGui.SetCursorPosY(ypos + 2);
+		
+		// Draw Final Text
+		ImGui.Text(title);
+		
+		// Reset
+		//if (ImGui.IsItemClicked() && def != NO_DEFAULT) ret = def;
+		
+		// Spacing
+		ImGui.Spacing();
 		
 		// Return
 		return ret;

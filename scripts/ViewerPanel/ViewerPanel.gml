@@ -96,7 +96,11 @@ function ViewerPanel() constructor
 					{
 						multiplyScale = 1.25;
 						colour = c_orange;
+						
+						if (mouse_check_button_pressed(mb_left)) ENVIRONMENT.iconSelected = i;
 					}
+					
+					if (ENVIRONMENT.iconSelected == i) colour = c_aqua;
 					
 					for (var s = 0; s < sprite_get_number(ICONFRAMES[ENVIRONMENT.iconFrame]); s++)
 					{

@@ -120,3 +120,6 @@ enum BTShader
 
 // DBGOUT
 DBGOUT("BactaTank Classic: Initialised");
+
+#macro NULL 0x0B00B1E5
+#macro NO_DEFAULT 0x000BAC7A

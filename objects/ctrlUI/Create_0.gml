@@ -27,6 +27,7 @@ ICONFRAMES = [
 ENVIRONMENT = new GlobalEnvironment();
 ENVIRONMENT.add(new ViewerPanel());
 ENVIRONMENT.add(new IconPanel());
+//ENVIRONMENT.add(new FooterPanel());
 ENVIRONMENT.addModal(new StartupModal());
 ENVIRONMENT.openModal("Welcome");
 
